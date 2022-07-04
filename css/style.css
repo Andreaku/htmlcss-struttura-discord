@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+header, footer {
+    height: 75vh;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #3161E0;
+    text-align: center;
+}
+
+footer {background-color: #191b1d;}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+section {padding: 15px;}
+
+h1, h2, h3, p, button {margin-bottom: 20px;}
+
+h1, h2 {font-size: 35px;}
+
+h3 {font-size: 30px;}
+
+button {margin: 0 10px;}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.flex-container {display: flex;}
+
+.container-green, .container-orange, .container-red {
+    min-height: 300px;
+    padding: 20px;
+}
+
+.container-green{
+    width: 450px;
+    background-color: #16b12a;
+    text-align: center;
+    line-height: calc(300px - 40px);
+}
+
+.container-orange{
+    background-color: #c47215;
+    width: 300px;
+}
+
+.container-red {
+    background-color: #cf1e1e;
+    min-height: 150px;
+    width: 750px;
+    text-align: center;
+}
+
+.black-text {color: black;}
+
+.btn-primary {
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.border {border: 2px dashed black;}
+
+.logo {
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: calc(20px - 4px);
+}
+
+header div.flex-container {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+header section.container {width: 600px;}
+
+main > section:nth-child(even){
+    background-color: #888787;
+}
+
+main > section {
+    height: 90vh;
+}
+
+main > section div.flex-container {
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main > section:last-child {height: 150vh;}
+
+main > section:last-child > .flex-container {
+    flex-direction: column;
+}
+
+footer .flex-container {justify-content: space-between;}
+
+footer section.container.flex-container:first-child {
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 15px
+}
+
+footer h3 {font-size: 26px;}
+
+.col-1, .col-2 {min-height: 150px;}
+
+.col-1 {width: 30%;}
+
+.col-2 {width: 70%;}
+
+form, select, option {
+    background-color: transparent;
+}
+
+.social-container {margin-top: 20px;}
+
+span.social-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #e2861c;
+    padding: 0 5px;
+    border-radius: 15px;
+}
+
+.col-2-1, .col-2-2, .col-2-3, .col-2-4 {
+    width: 20%;
+}
+
+footer ul li, h4 {
+    padding-bottom: 5px;
+}
+
+footer h3, h4 {color: #1845c0;}
